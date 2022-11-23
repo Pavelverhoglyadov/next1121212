@@ -1,0 +1,17 @@
+Console.WriteLine("Введите число");
+int n = Convert.ToInt32(Console.ReadLine());
+int num = -n;
+while (num <= n)
+{
+    Console.Write($"{num} ");
+    num++;
+}
+
+
+
+Console.WriteLine("Введите число");
+int num = Convert.ToInt32(Console.ReadLine());
+int div1 = num%10;
+Console.Write($"{div1} ");
+
+
